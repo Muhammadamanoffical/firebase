@@ -1,0 +1,25 @@
+.product {
+    height: 400px;
+    border-radius: 15px;
+    background-image: url('https://www.apple.com/mideast/apple-watch-se/m/images/overview/hero/en/hero__d5yx0jn6usae_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.product:hover .trans {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: block;
+    color: antiquewhite;
+    border-radius: 15px;
+
+
+}
+
+.trans {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
